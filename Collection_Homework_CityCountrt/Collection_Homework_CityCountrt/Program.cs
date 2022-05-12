@@ -9,7 +9,8 @@ namespace Collection_Homework_CityCountrt
     {
         static void Main(string[] args)
         {
-            Country countryAzerbaycan = new Country("Azerbaycan");
+            string name = Console.ReadLine();
+            Country countryAzerbaycan = new Country(name);
             Country countryRussia = new Country("Russia");
             Info(countryAzerbaycan);
             Info(countryRussia);
