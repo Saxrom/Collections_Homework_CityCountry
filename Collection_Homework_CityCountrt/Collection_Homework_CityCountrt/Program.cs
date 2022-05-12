@@ -9,27 +9,30 @@ namespace Collection_Homework_CityCountrt
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Please enter the name of the country:");
             string name = Console.ReadLine();
-            Country countryAzerbaycan = new Country(name);
-            Country countryRussia = new Country("Russia");
-            Info(countryAzerbaycan);
+            Country countryAzerbaijan = new Country(name);
+            Country countryRussia = new Country(name);
+            Info(countryAzerbaijan);
             Info(countryRussia);
-
-
+            
+            
+            
         }
 
         public static void Info(Country  country)
         {
-            Console.WriteLine("City-lerin sayini daxil edin:");
+            Console.WriteLine("Enter the number of cities:");
             int count = Convert.ToInt32(Console.ReadLine());
             int population = 0;
             string cityname;
             for (int i = 0; i < count; i++)
             {
-                Console.WriteLine("Zehmet olmasa sheherin adini daxil edin:");
+                Console.WriteLine("Please enter the name of the city:");
                 cityname = Console.ReadLine();
 
-                Console.WriteLine("Zehmet olmasa sheherin ehali sayini daxil edin:");
+                Console.WriteLine("Please enter the population of the city:");
                 population = Convert.ToInt32(Console.ReadLine());
 
                 City city = new City(cityname, population);
@@ -43,11 +46,11 @@ namespace Collection_Homework_CityCountrt
             }
             Console.WriteLine("***");
 
-            Console.WriteLine("Ehalinin minimum sayini daxil edin");
+            Console.WriteLine("Enter the minimum population:");
             int min = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ehalinin maximum sayini daxil edin");
+            Console.WriteLine("Enter the maximum population:");
             int max = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Axtardiqiniz mellumat tapildi:");
+            Console.WriteLine("The information you were looking for was found:");
             country.FindAllByPopulation(min, max);
         }
     }

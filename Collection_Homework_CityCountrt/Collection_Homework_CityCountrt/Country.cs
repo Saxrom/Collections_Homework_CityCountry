@@ -48,7 +48,7 @@ namespace Collection_Homework_CityCountry
                 }
              
             }
-            if (resalt == false) Console.WriteLine("Daxil elediyiniz araliqda bir 'City' tapilmadi");
+            if (resalt == false) Console.WriteLine("No 'City' found in the space you entered");
             
         }
         

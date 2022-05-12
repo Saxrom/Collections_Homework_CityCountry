@@ -15,7 +15,7 @@ namespace Collection_Homework_CityCountry
 
         public override string ToString()
         {
-            return $"Sheher:{Name} , Ehali sayi:{Population}";
+            return $"City:{Name} , City:{Population}";
         }
     }
 }
