@@ -10,6 +10,15 @@ namespace Collection_Homework_CityCountrt
         static void Main(string[] args)
         {
             Country countryAzerbaycan = new Country("Azerbaycan");
+            Country countryRussia = new Country("Russia");
+            Info(countryAzerbaycan);
+            Info(countryRussia);
+
+
+        }
+
+        public static void Info(Country  country)
+        {
             Console.WriteLine("City-lerin sayini daxil edin:");
             int count = Convert.ToInt32(Console.ReadLine());
             int population = 0;
@@ -23,11 +32,10 @@ namespace Collection_Homework_CityCountrt
                 population = Convert.ToInt32(Console.ReadLine());
 
                 City city = new City(cityname, population);
-                countryAzerbaycan.Add(city);
+                country.Add(city);
             }
-            Console.WriteLine("***");
-            Console.WriteLine("Yaranan City-ler:");
-            foreach (var item in countryAzerbaycan.Get())
+
+            foreach (var item in country.Get())
             {
                 Console.WriteLine(item);
 
@@ -39,8 +47,7 @@ namespace Collection_Homework_CityCountrt
             Console.WriteLine("Ehalinin maximum sayini daxil edin");
             int max = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Axtardiqiniz mellumat tapildi:");
-            countryAzerbaycan.FindAllByPopulation(min,max);
+            country.FindAllByPopulation(min, max);
         }
-
     }
 }

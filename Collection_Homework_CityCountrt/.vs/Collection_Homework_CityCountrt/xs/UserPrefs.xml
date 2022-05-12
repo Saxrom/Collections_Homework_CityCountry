@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{53E1C684-9845-4B0C-B940-7A439642DA37}|Default">
   <MonoDevelop.Ide.ItemProperties.Collection__Homework__CityCountry PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Collection_Homework_CityCountrt/City.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Collection_Homework_CityCountrt/Program.cs">
     <Files>
-      <File FileName="Collection_Homework_CityCountrt/Program.cs" Line="43" Column="10" />
+      <File FileName="Collection_Homework_CityCountrt/Program.cs" Line="15" Column="33" />
       <File FileName="Collection_Homework_CityCountrt/Country.cs" Line="14" Column="10" />
       <File FileName="Collection_Homework_CityCountrt/City.cs" Line="18" Column="48" />
     </Files>
@@ -11,7 +11,7 @@
         <State name="__root__">
           <Node name="Collection_Homework_CityCountrt" expanded="True">
             <Node name="Collection_Homework_CityCountry" expanded="True">
-              <Node name="City.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

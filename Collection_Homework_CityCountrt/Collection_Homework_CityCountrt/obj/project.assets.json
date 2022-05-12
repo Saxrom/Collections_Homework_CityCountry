@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shahrom/Desktop/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/Collection_Homework_CityCountry.csproj",
+      "projectUniqueName": "/Users/shahrom/Desktop/Collection/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/Collection_Homework_CityCountry.csproj",
       "projectName": "Collection_Homework_CityCountry",
-      "projectPath": "/Users/shahrom/Desktop/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/Collection_Homework_CityCountry.csproj",
+      "projectPath": "/Users/shahrom/Desktop/Collection/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/Collection_Homework_CityCountry.csproj",
       "packagesPath": "/Users/shahrom/.nuget/packages/",
-      "outputPath": "/Users/shahrom/Desktop/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/obj/",
+      "outputPath": "/Users/shahrom/Desktop/Collection/Collection_Homework_CityCountrt/Collection_Homework_CityCountrt/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shahrom/.config/NuGet/NuGet.Config"
